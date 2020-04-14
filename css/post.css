@@ -1,0 +1,14 @@
+p {
+    max-width: 800px;
+    display: inline-block;
+}
+
+.image{
+    display: inline-block;
+}
+
+#center{
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+}
