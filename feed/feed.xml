@@ -67,7 +67,16 @@
 		<link href="https://twinkle43.github.io/posts/firstpost/"/>
 		<updated>2020-04-14T07:00:00+07:00</updated>
 		<id>https://twinkle43.github.io/posts/firstpost/</id>
-		<content type="html">&lt;div id=&quot;center&quot;&gt;
+		<content type="html">&lt;script src=&quot;https://kit.fontawesome.com/a076d05399.js&quot;&gt;&lt;/script&gt;
+&lt;div id=&quot;center&quot;&gt;
+	&lt;div&gt;
+	&lt;hr&gt;
+		&lt;p style=&quot;font-size:25px;margin-block-start:0; margin-block-end:0; text-align:left;color:green&quot;&gt;
+			&amp;ensp; &lt;i class=&quot;fas fa-clock&quot; style=&quot;font-size:24px&quot;&gt; &lt;/i&gt;  14 Tháng Tư 2020
+		&lt;/p&gt; 
+		&lt;hr&gt;
+	&lt;/div&gt;
+
 	&lt;div style=&quot;text-align: center&quot;&gt;
 		&lt;image class=&quot;image&quot; src=&quot;https://bit.ly/2JXqfon&quot;&gt; &lt;br&gt;
 		&lt;p style=&quot;font-style: italic&quot;&gt; Nếu bạn thực hiện được một nửa những gì bạn đọc được thì bạn đã trở thành một tỷ phú. &lt;/p&gt;

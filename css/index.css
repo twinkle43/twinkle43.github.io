@@ -22,21 +22,21 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
-p,
-.tmpl-post li,
-img {
+p,.tmpl-post li,img {
   max-width: 37.5em; /* 600px /16 */
 }
-p,
-.tmpl-post li {
+p,.tmpl-post li {
   line-height: 1.45;
 }
+
 a[href] {
   color: var(--blue);
 }
 a[href]:visited {
   color: var(--navy);
 }
+
+
 main {
   padding: 1rem;
 }
@@ -45,12 +45,14 @@ main :first-child {
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+  background-color: green;
 }
 header:after {
   content: "";
   display: table;
   clear: both;
 }
+
 table {
   margin: 1em 0;
 }
@@ -120,6 +122,7 @@ pre {
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
+  color :white;
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -196,6 +199,7 @@ pre {
 a[href].tag,
 a[href].tag:visited {
   color: #fff;
+  text-decoration: none;
 }
 
 /* Warning */

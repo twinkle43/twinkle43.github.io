@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Minh Khue &#39;s Blog">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
+
     <header>
-      <h1 class="home"><a href="/">Minh Khue &#39;s Blog</a></h1>
+      <h1 class="home" >
+          <a href="/" id="headerzone">Minh Khue's Blog </a>
+      </h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+        <li class="nav-item"><a href="/" id="headerzone1"> Home </a> </li>
+        <li class="nav-item"><a href="/posts/" id="headerzone2"> Post </a> </li>   
+        <li class="nav-item"><a href="/about/" id="headerzone3"> About </a> </li>
       </ul>
     </header>
 
-    
+    <main class="tmpl-post">
+      
 
       <link rel="stylesheet" href="/css/post.css">
-<h1>This is my third post.</h1>
-
+<div id="title">
+        <h1>This is my third post.</h1>
+</div>
 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 <pre class="language-js"><code class="language-js"><span class="highlight-line"><span class="token comment">// this is a command</span></span><br><span class="highlight-line"><span class="token keyword">function</span> <span class="token function">myCommand</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span><br><ins class="highlight-line highlight-line-add">	<span class="token keyword">let</span> counter <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span></ins><br><span class="highlight-line"></span><br><del class="highlight-line highlight-line-remove">	counter<span class="token operator">++</span><span class="token punctuation">;</span></del><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token punctuation">}</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token comment">// Test with a line break above this line.</span></span><br><span class="highlight-line">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Test'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
 <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
@@ -37,7 +43,12 @@
     </main>
 
     <footer></footer>
-
     <!-- Current page: /posts/thirdpost/ -->
+    <script> 
+      document.getElementById("headerzone").style.color = "white";
+      document.getElementById("headerzone1").style.color = "white";
+      document.getElementById("headerzone2").style.color = "white";
+      document.getElementById("headerzone3").style.color = "white";
+    </script>
   </body>
 </html>

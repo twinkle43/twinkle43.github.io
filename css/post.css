@@ -1,4 +1,4 @@
-p {
+p{
     max-width: 800px;
     display: inline-block;
 }
@@ -11,4 +11,19 @@ p {
     width: 800px;
     margin: auto;
     font-size: 20px;
+}
+
+#title{
+    width: 800px;
+    margin: auto;
+}
+
+h1{
+    max-width: 800px;
+    display: inline-block;
+}
+
+hr{
+        margin-block-start: 0;
+        margin-block-end: 0; 
 }

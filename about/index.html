@@ -1,39 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Minh Khue &#39;s Blog</title>
     <meta name="Description" content="I am writing about my experiences as a naval navel-gazer.">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Minh Khue &#39;s Blog">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
+
     <header>
-      <h1 class="home"><a href="/">Minh Khue &#39;s Blog</a></h1>
+      <h1 class="home" >
+          <a href="/" id="headerzone">Minh Khue's Blog </a>
+      </h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item nav-item-active"><a href="/about/">About Me</a></li>
+        <li class="nav-item"><a href="/" id="headerzone1"> Home </a> </li>
+        <li class="nav-item"><a href="/posts/" id="headerzone2"> Post </a> </li>   
+        <li class="nav-item"><a href="/about/" id="headerzone3"> About </a> </li>
       </ul>
     </header>
 
-    
+    <main class="tmpl-post">
+      
 
       <link rel="stylesheet" href="/css/post.css">
-<h1>About Me</h1>
+<div id="title">
+        <h1></h1>
+</div>
 
-<p>I am a person that writes stuff.</p>
+<div id="center">
+  <image class="image" src="https://bit.ly/3ckNEMi"> <br>
+  <p>
+  Tác giả hiện đang là một lập trình viên IT. Trang web này được làm ra nhằm mục đích luyện tập tay nghề là chính, đồng thời cũng là nơi tác giả đưa lên những thứ cho rằng sẽ thú vị hoặc có ích đối với một ai đó.
+   </p>
+</div>
 
+<style>
+
+#center{
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.image{
+  display: inline-block;
+  max-width : 200px;
+}
+
+</style>
 
 <p><a href="/">← Home</a></p>
 
     </main>
 
     <footer></footer>
-
     <!-- Current page: /about/ -->
+    <script> 
+      document.getElementById("headerzone").style.color = "white";
+      document.getElementById("headerzone1").style.color = "white";
+      document.getElementById("headerzone2").style.color = "white";
+      document.getElementById("headerzone3").style.color = "white";
+    </script>
   </body>
 </html>

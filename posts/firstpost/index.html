@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,23 +9,38 @@
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Minh Khue &#39;s Blog">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
+
     <header>
-      <h1 class="home"><a href="/">Minh Khue &#39;s Blog</a></h1>
+      <h1 class="home" >
+          <a href="/" id="headerzone">Minh Khue's Blog </a>
+      </h1>
       <ul class="nav">
-        <li class="nav-item"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
+        <li class="nav-item"><a href="/" id="headerzone1"> Home </a> </li>
+        <li class="nav-item"><a href="/posts/" id="headerzone2"> Post </a> </li>   
+        <li class="nav-item"><a href="/about/" id="headerzone3"> About </a> </li>
       </ul>
     </header>
 
-    
+    <main class="tmpl-post">
+      
 
       <link rel="stylesheet" href="/css/post.css">
-<h1>Most Books Won’t Change Your Life (But You Should Read Them Anyways)</h1>
-
+<div id="title">
+        <h1>Most Books Won’t Change Your Life (But You Should Read Them Anyways)</h1>
+</div>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <div id="center">
+	<div>
+	<hr>
+		<p style="font-size:25px;margin-block-start:0; margin-block-end:0; text-align:left;color:green">
+			&ensp; <i class='fas fa-clock' style='font-size:24px'> </i>  14 Tháng Tư 2020
+		</p> 
+		<hr>
+	</div>
+
 	<div style="text-align: center">
 		<image class="image" src="https://bit.ly/2JXqfon"> <br>
 		<p style="font-style: italic"> Nếu bạn thực hiện được một nửa những gì bạn đọc được thì bạn đã trở thành một tỷ phú. </p>
@@ -52,7 +67,12 @@
     </main>
 
     <footer></footer>
-
     <!-- Current page: /posts/firstpost/ -->
+    <script> 
+      document.getElementById("headerzone").style.color = "white";
+      document.getElementById("headerzone1").style.color = "white";
+      document.getElementById("headerzone2").style.color = "white";
+      document.getElementById("headerzone3").style.color = "white";
+    </script>
   </body>
 </html>
